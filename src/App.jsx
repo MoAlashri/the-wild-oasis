@@ -1,9 +1,24 @@
+import styled from "styled-components"
+import GlobalStyle from "./styles/GlobalStyles"
+import Button from './ui/Button'
+const H1 =styled.h1 `
+  font-size: 30px;
+  font-weight: 600;
+  color: #787878;
+  background-color: #f5f5f5;
+  `
+
+
+
 function App() {
   return (
-    <div>
-      <p>Hello, world</p>
-      <h1>TEST TEST TEST TSETIvknc Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, similique. Error impedit sed aliquid facere earum. Enim id nulla, dicta velit illo beatae dolor, aperiam at natus accusantium suscipit maxime.</h1>
-    </div>
+    <>
+      <GlobalStyle/>
+      <div>
+        <H1>Welcome to React</H1>
+        <Button>Click me</Button>
+      </div>
+    </>
   )
 }
 
