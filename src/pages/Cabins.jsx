@@ -3,7 +3,6 @@ import Row from "../ui/Row";
 import CabinTable from "../features/cabins/CabinTable";
 
 function Cabins() {
- 
 
   return (
     <>
