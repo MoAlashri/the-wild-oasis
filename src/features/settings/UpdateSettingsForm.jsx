@@ -5,6 +5,7 @@ import { useSettings } from './useSettings';
 import Spinner from '../../ui/Spinner'
 import { useUpdateSetting } from './useUpdateSetting';
 function UpdateSettingsForm() {
+  // eslint-disable-next-line no-unused-vars
   const {isLoading, error,
     settings: {
       minBookingLength,
