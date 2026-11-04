@@ -43,6 +43,7 @@ function CreateCabinForm({cabinToEdit ={}, onCloseModal}) {
         // eslint-disable-next-line no-unused-vars
         onSuccess: (data) =>{
           reset()
+          onCloseModal?.()
         }
       }
       );
